@@ -13,11 +13,11 @@ client=Groq(api_key=my_api_key)
 
 model="llama-3.3-70b-versatile"
 role="user"
-prompt="how can i efficiently finish dsa in 6 months for internship " 
+prompt="what skill should i focus on 2026 for the upcoming future" 
 
 message_system={
     "role": "system" ,
-    "content": "you are an highly experieced software development with 20-30 years of experience"
+    "content": "you knows the upcoming future and guide me according to that ."
 }
 message={
     "role":role ,
